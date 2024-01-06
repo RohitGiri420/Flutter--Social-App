@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:social_app/HomePage.dart';
 import 'Feed.dart';
 
 void main(){
@@ -11,10 +12,8 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FeedPage(),
+      home: HomePage(),
     );
   }
-
-
 }
 

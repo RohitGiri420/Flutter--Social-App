@@ -1,3 +1,4 @@
+import 'dart:html';
 import 'dart:ui';
 import 'package:flutter/material.dart';
 
@@ -25,6 +26,14 @@ class UiHelper {
         child: Image.network("$Url"),
       ),
     );
+  }
+
+  static story(ImageData image){
+    return CircleAvatar(
+      backgroundImage: NetworkImage("$image"),
+    );
+
+
   }
 
 
